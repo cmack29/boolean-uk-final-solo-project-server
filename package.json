@@ -1,0 +1,35 @@
+{
+  "name": "boolean-uk-final-solo-project-server",
+  "version": "1.0.0",
+  "description": "Upstream for final solo projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmack29/boolean-uk-final-solo-project-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmack29/boolean-uk-final-solo-project-server/issues"
+  },
+  "homepage": "https://github.com/cmack29/boolean-uk-final-solo-project-server#readme",
+  "dependencies": {
+    "@prisma/client": "^3.6.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
