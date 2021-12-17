@@ -4,7 +4,8 @@
   "description": "Upstream for final solo projects",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "cmack-gym": "node src/index.js"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
@@ -31,6 +32,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  },
-  "cmack-gym": "node src/index.js"
+  }
 }
