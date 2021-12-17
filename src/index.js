@@ -13,7 +13,7 @@ const workoutRouter = require("./resources/workouts/router")
 
 app.disable("x-powered-by")
 
-app.use(cors())
+app.use(cors({origin: 'https://cmackgym.herokuapp.com'}))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan("dev"))
